@@ -18,6 +18,8 @@ const ScrollableBlock: React.FC<ScrollableBlockProps> = ({
 
     const scrollContainerRef = useRef<HTMLDivElement | null>(null);
 
+    
+
     //  Ширина элемента
     const gap = isMobileDevice ? 15 : 20;
 
